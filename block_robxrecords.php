@@ -39,7 +39,7 @@ class block_robxrecords extends block_base {
       $values = $response->getValues();
 
       if(!empty($values)) {
-        'No data found.\n';
+        $link = 'No data found.';
       }
       else {
         foreach ($values as $row) {
